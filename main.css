@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
     font-weight: 500;
 }
 :root{
@@ -19,6 +19,17 @@
     
 }
 
+.principal {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.principal.ativo {
+    display: block;
+    opacity: 1;
+}
+
 .containerVermelho{
     background-color: var(--verderelo-100);
     display: flex;
@@ -33,7 +44,6 @@
 }
 
 .redeSocial{
-   
     display: flex;
     align-items: center;
     justify-content: center;
