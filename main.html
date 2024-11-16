@@ -26,19 +26,20 @@
                 <input type="password" placeholder=" Senha" id="senha"><br>
                 <a href="link do esqueceu a senha">Esqueci Minha Senha</a>
             </div>
-            <div class="centralizando"><button id="conectar" class="butaoEntrar">Entrar</button></div>
+            <div class="centralizando botao"><button id="conectar" class="butaoEntrar">Entrar</button></div>
         </div>
          <div class="containerVermelho centralizando">
             <h2>Crie Sua Conta</h2><br>
             <span>Faça Parte Do Time!</span><br>
-            <button>Registrar</button>
+            <button onclick="criarConta()">Registrar</button>
         </div>
-        <div class="containerVermelho centralizando">
-            <h2>Bem Vindo</h2><br>
-            <span>Para se conectar usando sua conta</span><br>
-            <button>Login</button>
-        </div>
-        <div class="containerEscrever "> 
+        <!-- <div class="menuOculto"> -->
+            <div class="containerVermelho centralizando">
+                <h2>Bem Vindo</h2><br>
+                <span>Para se conectar usando sua conta</span><br>
+                <button onclick="login()">Login</button>
+            </div>
+            <div class="containerEscrever "> 
                 <div class="centralizando"><H2>Crie Sua Conta</H2></div>
                     <div class="redeSocial">
                         <a href="Google"><img src="imagens/google-Icon-webp.webp" alt="icone do google"></a>
@@ -46,16 +47,17 @@
                         <a href="Github"><img src="imagens/GitHub-Icon-Webp.webp" alt="icone do Github"></a>
                     </div>
                     <div class="centralizando"><span>Registre-se:</span></div>
-            <div class="centralizando">
-                <input type="name" placeholder=" Nome" id="nome">
-                <input type="email" placeholder=" Email" id="email">
-                <input type="password" placeholder=" Senha" id="senha">
-            </div>
-            <div class="centralizando">
-                <button id="conectar">Criar Conta</button>
-            </div>  
-        </div> 
+                    <div class="centralizando">
+                        <input type="name" placeholder=" Nome" id="nome">
+                        <input type="email" placeholder=" Email" id="email">
+                        <input type="password" placeholder=" Senha" id="senha">
+                    </div>
+                <div class="centralizando">
+                    <button id="conectar">Criar Conta</button>
+                </div>  
+            </div> 
+        <!-- </div> -->
     </div>
 </body>
-<!-- <script src="main.js"></script> -->
+<script src="main.js"></script> 
 </html>
