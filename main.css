@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     font-family: Verdana;
 }
 :root{
@@ -11,6 +11,15 @@
     --caramelo-100: #f1eb86;
     --verderelo-100: rgb(255, 111, 0);
 }
+
+h1{
+    font-size: 1.4rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
 .secundario.ativo {
     display: block;
    
@@ -82,6 +91,10 @@ button:hover{
 
 .ajuste1{
     padding-left: 5%;
+}
+
+.ajuste2{
+    padding-top: 7%;
 }
 
 input{
