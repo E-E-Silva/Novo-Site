@@ -9,36 +9,36 @@
     --caramelo-100: #e7d0a3e7;
     --verderelo-100: rgb(255, 111, 0);
 }
+.secundario.ativo {
+    display: block;
+   
+} 
 
-.containerPrincipal{
+.secundario {
+    display: none;
+} 
+
+.containerPrincipal {
     display: flex;
     justify-content: center;
-    align-content: center;
-    margin-top: 8%;
-    gap: 2%;
+    align-items: center;
+    height: 100vh;
     
-}
-
-.principal {
-    display: none;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
-
-.principal.ativo {
-    display: block;
-    opacity: 1;
 }
 
 .containerVermelho{
     background-color: var(--verderelo-100);
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    height: 400px; width: 300px; 
+    height: 430px; width: 270px; 
     
 }
+ 
+/* Usar essa class para modificar os elementos de letras e formatos */
 
-.containerEscrever{
+.containerEscrever{                                       
     height: 400px; width: 300px;
     
 }
@@ -72,4 +72,8 @@ button{
     color: rgb(1, 1, 1);
     border-radius: 50px;
     border-color: rgba(8, 163, 49, 0.268);
+}
+
+.ajuste1{
+    padding-left: 5%;
 }

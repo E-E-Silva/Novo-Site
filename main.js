@@ -5,12 +5,12 @@
 // var soma = numero += numero2;
 // alert("A soma dos números informados é" + soma + ":D")
 
-function criarConta() {
-    document.getElementById('criarConta').classList.remove('ativo');
-    document.getElementById('loginConta').classList.add('ativo');
-}
-
 function login() {
     document.getElementById('loginConta').classList.remove('ativo');
-    document.getElementById('criarConta').classList.add('ativo');
+    document.getElementById('CriarConta').classList.add('ativo');
+}
+
+function criarConta() {
+    document.getElementById('CriarConta').classList.remove('ativo');
+    document.getElementById('loginConta').classList.add('ativo');
 }
