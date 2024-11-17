@@ -93,3 +93,15 @@ input{
     margin-top: 10px;
 }
 
+@media screen and (max-width: 400px){
+    .containerVermelho{
+        height: auto;
+        width: auto;
+    }
+    .containerEscrever{
+        height: auto;
+        width: auto;
+    }
+    
+}
+
