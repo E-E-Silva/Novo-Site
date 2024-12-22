@@ -8,7 +8,7 @@
 }
 :root{
     --azul-100: rgb(109, 109, 238);
-    --caramelo-100: #f1eb86;
+    --caramelo-100: #dabc8e;
     --verderelo-100: rgb(255, 111, 0);
 }
 
@@ -34,7 +34,6 @@ h2 {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
 }
 
 .containerVermelho{
@@ -44,6 +43,7 @@ h2 {
     align-items: center;
     flex-direction: column;
     height: 25rem; width: 24rem; 
+    box-shadow: 2px 2px 2px 2px rgba(153, 169, 188, 0.958);
     
 }
  
@@ -51,6 +51,8 @@ h2 {
 
 .containerEscrever{                                       
     height: 24rem; width: 18rem;
+    box-shadow: 2px 2px 2px 2px rgba(153, 169, 188, 0.958);
+    
 }
 
 .redeSocial{
@@ -70,7 +72,6 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 5%;
     flex-wrap: wrap;
 }
 
@@ -101,7 +102,7 @@ input{
     border: solid rgb(0, 0, 0);
     color: var(--verderelo-100);
     border-radius: 10px;
-    width: 100%;
+    width: 88%;
     height: 42px;
     margin-top: 10px;
 }

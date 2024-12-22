@@ -14,3 +14,7 @@ function criarConta() {
     document.getElementById('CriarConta').classList.remove('ativo');
     document.getElementById('loginConta').classList.add('ativo');
 }
+
+
+
+
