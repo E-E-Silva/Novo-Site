@@ -68,6 +68,10 @@ img{
     border-radius: 40%;
 }
 
+a {
+    color: rgb(255, 8, 0);
+}
+
 .centralizando{
     display: flex;
     align-items: center;
@@ -88,6 +92,7 @@ button{
 button:hover{
     color: rgb(190, 79, 35);
     background-color: blueviolet;
+    transition: all 0.5s ease-in-out;
 }
 
 .ajuste2{
@@ -113,8 +118,4 @@ input{
         width: auto;
     }
     
-}
-
-a {
-    color: rgb(255, 8, 0);
 }
