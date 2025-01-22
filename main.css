@@ -85,18 +85,33 @@ button{
     width: 8.8rem;
     background-color: rgb(255, 255, 255);
     color: rgb(1, 1, 1);
-    border-radius: 50px;
+    border-radius: 10px;
     border-color: var(--verderelo-100);
 }
 
 button:hover{
-    color: rgb(190, 79, 35);
+    color: var(--verderelo-100);
     background-color: blueviolet;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.entrar{
+    color: rgb(190, 79, 35);
+    background-color: white;
+    border: solid var(--verderelo-100);
+}
+
+.entrar2 {
+    color: white;
+    background-color: var(--verderelo-100);
+    border: solid white;
 }
 
 .ajuste2{
-    padding-top: 7%;
+    margin-top: 10px;
+    padding-left: 20%;
+    font-size: 12px;
+    color: black;
 }
 
 input{
@@ -106,9 +121,26 @@ input{
     width: 88%;
     height: 42px;
     margin-top: 10px;
+    text-align: center;
 }
 
-@media screen and (max-width: 400px){
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+@media screen and (max-width: 1000px){
+    .secundario.ativo {
+        display: flex;
+        flex-direction: column;
+    } 
+    
+    .secundario {
+        display: none;
+    } 
+    
     .containerVermelho{
         height: auto;
         width: auto;
@@ -118,4 +150,6 @@ input{
         width: auto;
     }
     
+    
 }
+
